@@ -1,16 +1,16 @@
 
-shinyUI(navbarPage('My Shiny Application',
+shinyUI(navbarPage('A Shiny Application',
 
                    tabPanel('Introduction',
                            includeMarkdown('intro.Rmd')
                            #includeHTML('index.html')
                    ),
 
-                   tabPanel('The GEO transcriptomics datasets explorer', 
+                   tabPanel('The GEO transcriptomics data quality explorer', 
                         
                             
                             fluidPage(
-                                    titlePanel("ROC for 12 GSEs (studies) and 1260 GSMs (samples)"),
+                                    titlePanel("Receiver operating characteristic (ROC) curves for 12 GSEs (studies) and 1260 GSMs (samples)"),
                                     sidebarLayout(position = "left",
                                                   sidebarPanel(h3("Control Panel"),
                                                                checkboxInput("doProcessed", "ROC for heterogeneous data", value = T),

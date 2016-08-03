@@ -1,15 +1,15 @@
 
 
-## About the GEO transcriptomics dataset explorer
+## About the GEO transcriptomics data quality explorer
 ### Dataset information
 
-This Shiny App is for searching and visulizating the quality of a list of selected NCBI GEO datasets, from [NCBI Gene Expression Omnibus](http://www.ncbi.nlm.nih.gov/geo/)
+This Shiny App is for generating ROC curves to test the quality of a list of selected NCBI GEO datasets, retrieved from [NCBI GEO (Gene Expression Omnibus)](http://www.ncbi.nlm.nih.gov/geo/)
 
 ![][logo1]  ![][logo_geo]
 
 ### NOTE
 
-R functions for retriving the GEO datasets are not provided in *this Shiny* application
+R functions for retriving the GEO datasets are not provided in this Shiny application
 
 [logo1]: http://www.ciib.unam.mx/coldigit/genback-logo.jpg "NCBI"
 [logo_geo]:http://www.ciib.unam.mx/coldigit/geo-logo.jpg "GEO"

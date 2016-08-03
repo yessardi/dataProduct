@@ -50,15 +50,7 @@ After comparing 12 retrieved GEO datasets using two different heterogeneous and 
 
 **Samples (GSM#’s) from the same study (GSE#) can have very different ROC curves**. For example, please see below the curves for all the samples GSMs of the dataset GSE20333. All the samples have different shapes of curves.
 
-```{r, echo=FALSE,warning=FALSE, message=FALSE,out.height = 250,out.width=350 }
-load('./forWeb1.RData')
-library(stringr)
-library(dplyr)
-library(ggplot2)
-f<-g_processed
-f$data<-filter(f$data, str_detect(group,'GSE20333'))
-print(f)
-```
+<img src="Reproducible_pitch_presentation-figure/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="350" height="250" />
 
 
 The Web App and its code:

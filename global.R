@@ -4,6 +4,7 @@ library(dplyr)
 library(stringr)
 library(xlsx)
 library(DT)
+library(shiny)
 
 
 load('./forWeb1.RData')
