@@ -7,6 +7,9 @@ The 12 transcriptomics datasets (studies) with 1260 GSMs (samples) are downloade
 GSE19587, GSE20141, GSE20291, GSE20292, GSE20295, GSE20333, GSE24378, GSE53987, GSE54282, GSE7621, GSE8397.
 
 
+
+The code of this Shiny application and reproducible pitch presentation can be found at [**GitHub repository**](https://github.com/gogo1988/dataProduct)
+
 ## Background:
 
 * [NCBI GEO (Gene Expression Omnibus)](http://www.ncbi.nlm.nih.gov/geo/)
